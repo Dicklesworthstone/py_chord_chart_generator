@@ -1,0 +1,7 @@
+black
+cairosvg
+httpx
+music21
+pillow
+ruff
+svgwrite
