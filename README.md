@@ -35,15 +35,20 @@ python py_chord_chart_generator.py
 
 The script generates SVG files for each chord specified in the `chord_examples` list. You can configure whether to generate musical notation and HTML gallery through the boolean flags `use_musical_notation` and `use_generate_html_gallery`.
 
+<div align="center">
+
 | ![Sample Chart for Chord Dmaj7](https://github.com/Dicklesworthstone/py_chord_chart_generator/blob/main/chord_Dmaj7_default.svg) | 
 |:--:| 
 | *Sample Chart for Chord Dmaj7* |
+
+</div>
+
 
 ## In-Depth Understanding of the `parse_chord` Function
 
 The `parse_chord` function is the core of the **Py Chord Chart Generator**. It is designed to meticulously parse chord notation strings, breaking them down into their fundamental components: root note, chord quality, finger positions, and optional bass note. This parsing capability is what makes the **Py Chord Chart Generator** so powerful, allowing it to handle a vast array of chord symbols, from basic triads to complex jazz chords with multiple alterations.
 
-| ![Screenshot 1](https://raw.githubusercontent.com/Dicklesworthstone/py_chord_chart_generator/main/screenshot_1.webp) | ![Screenshot 2](https://raw.githubusercontent.com/Dicklesworthstone/py_chord_chart_generator/main/screenshot_2.webp) |
+| ![Screenshot 1](https://raw.githubusercontent.com/Dicklesworthstone/py_chord_chart_generator/main/screenshot_01.webp) | ![Screenshot 2](https://raw.githubusercontent.com/Dicklesworthstone/py_chord_chart_generator/main/screenshot_02.webp) |
 |:--:|:--:|
 | *Part 1 of parse_chord output* | *Part 2 of parse_chord output* |
 
