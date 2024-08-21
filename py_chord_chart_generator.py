@@ -1,6 +1,7 @@
 import re
 import os
 import base64
+import time
 from typing import List, Tuple, Dict, Optional
 import xml.etree.ElementTree as ET
 import xml.dom.minidom
@@ -745,7 +746,7 @@ if __name__ == "__main__":
             if notation_svg:
                 with open(f"musical_notation/notation_{i+1:03d}_{chord.replace('/', '_')}_{color_scheme}.svg", "w") as f:
                     f.write(notation_svg)
-
+        time.sleep(0.2)
     print("All SVG files have been generated.")
 
     if use_generate_html_gallery:

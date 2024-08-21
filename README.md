@@ -31,6 +31,9 @@ You can generate chord diagrams and musical notation by running the script:
 python py_chord_chart_generator.py
 ```
 
+### What It Looks Like
+[![asciicast](https://asciinema.org/a/uBZCNj09lkrbVruOYX1wlv95t.svg)](https://asciinema.org/a/uBZCNj09lkrbVruOYX1wlv95t)
+
 ### Command Line Execution
 
 The script generates SVG files for each chord specified in the `chord_examples` list. You can configure whether to generate musical notation and HTML gallery through the boolean flags `use_musical_notation` and `use_generate_html_gallery`.
